@@ -26,12 +26,12 @@ homework introduction
           if n == 1:
                 return 1
 
-      fib = fibonacci(n-1) + fibonacci(n-2)
-      return fib
+          fib = fibonacci(n-1) + fibonacci(n-2)
+          return fib
 
-fibonacci(50)
-print(count)
+    fibonacci(50)
+    print(count)
 
 
 
-二
+二.Botton-up method:
