@@ -11,6 +11,7 @@ homework introduction
   Recursive program Fib1 時間統計圖表及10秒中Fn最大的n值
 
   python code
+  
       count = 0
       def fibonacci(n):
           global count
