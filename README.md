@@ -50,34 +50,30 @@ homework introduction
             print ('Invalid Input')
             return None
 
-        a = 0 
+        a = 2 
         b = 1 
         for c in range(0,n):
             a = b
             b = count
             count = a + b
             
-    fibonacci(50)
+    fibonacci(5)
     print(count)
     
 三.Naive algorithm
   
   python code 
   
-    import cmath
-    import math
     count = 0
     def fibonacci(n):
         global count
-        #count = count + 1
         if not isinstance(n, int):
             print ('Invalid Input')
             return None
         if n < 0:
             print ('Invalid Input')
             return None
-
-        count = math.pow(((1+(cmath.sqrt(5).real))/2), n )/(cmath.sqrt(5).real)
+        count = (( (1 + (5 ** 0.5))/2) ** n)/(5 ** 0.5)
 
     fibonacci(5)
     print(count)
@@ -86,8 +82,6 @@ homework introduction
   
   python code 
   
-    import cmath
-    import math
     count = 0
     def fibonacci(n):
         global count
@@ -97,10 +91,8 @@ homework introduction
         if n < 0:
             print ('Invalid Input')
             return None
-
-        count = math.pow(((1+(cmath.sqrt(5).real))/2), n/2 )*math.pow(((1+(cmath.sqrt(5).real))/2), n/2 )
-
-    fibonacci(2)
+        count = (((1+(5 ** 0.5))/2) ** (n/2)) * (((1+(5 ** 0.5))/2) ** (n/2))
+    fibonacci(5)
     print(count)
   
 五.Recursive squaring method2
@@ -117,14 +109,12 @@ homework introduction
         if n < 0:
             print ('Invalid Input')
             return None
-
         A = np.array([[1,1],[1,0]])
         for a in range(1,n):
    		      count = np.dot(count,A)
-
-
-    fibonacci(100)
-    print(count)
+   	
+    fibonacci(5)
+    print (count[0][0])
     
 六.Negative Fibonacii numbers 
 
@@ -174,6 +164,12 @@ homework introduction
         if n < 0:
             print ('Invalid Input')
             return None
+        if n == 0 :
+            count = 2
+            return count
+        if n == 1:
+            count = 1
+            return count     
 
         a = 2 
         b = 1 
@@ -182,7 +178,8 @@ homework introduction
             b = count
             count = a + b
             
-    fibonacci(50)
+    fibonacci(3)
+    print(count)
     print(count)
 
 八.Tetranacci numbers
