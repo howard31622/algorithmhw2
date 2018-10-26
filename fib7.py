@@ -9,6 +9,12 @@ def fibonacci(n):
     if n < 0:
         print ('Invalid Input')
         return None
+    if n == 0 :
+        count = 2
+        return count
+    if n == 1:
+        count = 1
+        return count     
 
     a = 2 
     b = 1 
@@ -17,5 +23,5 @@ def fibonacci(n):
         b = count
         count = a + b
             
-fibonacci(50)
+fibonacci(3)
 print(count)

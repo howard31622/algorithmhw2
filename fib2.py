@@ -17,5 +17,5 @@ def fibonacci(n):
         b = count
         count = a + b
             
-fibonacci(50)
+fibonacci(306)
 print(count)
