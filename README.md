@@ -33,6 +33,7 @@ homework introduction
         print(fibonacci(5)))
 
 時間統計圖：
+
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib1.png)
 十秒內最大的n值： 7049155
 
@@ -64,6 +65,7 @@ homework introduction
     print(count)
     
 時間統計圖：
+
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib2.png)    
     
 十秒內最大的n值：
@@ -91,6 +93,7 @@ homework introduction
     print(count)
     
 時間統計圖：
+
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib3.png)
 
 十秒內最大的n值：（因為數字超過範圍，因此只能顯示64位元中最大數字）
@@ -115,6 +118,7 @@ homework introduction
     print(count)
  
  時間統計圖：
+ 
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib3.png)
  
  十秒內最大的n值：（因為數字超過範圍，因此只能顯示64位元中最大數字）
@@ -144,6 +148,7 @@ homework introduction
     print (count[0][0])
     
 時間統計圖：
+
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib5.png)
 
 十秒內最大的n值：	
@@ -214,7 +219,7 @@ homework introduction
             
     fibonacci(3)
     print(count)
-    print(count)
+
 
 八.Tetranacci numbers : 利用這個method延伸出提供前Ｋ個數字相加求第n個Fib8  Fn,k ，並求時間跟空間複雜度
 
