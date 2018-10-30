@@ -120,6 +120,30 @@ homework introduction
     fibonacci(5)
     print(count)
  
+ python code (divide and conquer)
+ 
+ 	count = 0
+
+	def fibonacci(n):
+    		if not isinstance(n, int):
+        		print ('Invalid Input')
+        		return None
+
+    		if n < 0:
+        		print ('Invalid Input')
+        		return None
+        
+    		if n == 0:  
+        		return 1
+
+    		if n == 1:
+        		return (1+(5 ** 0.5))/2  
+
+    		fib = fibonacci(n/2)* fibonacci(n/2)
+    		return fib
+
+	print(fibonacci(305))
+ 
  時間統計圖：
  
 ![image](https://github.com/howard31622/algorithmhw2/blob/master/fib3.png)
