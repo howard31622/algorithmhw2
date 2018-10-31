@@ -55,7 +55,7 @@ homework introduction
             print ('Invalid Input')
             return None
 
-        a = 2 
+        a = 0 
         b = 1 
         for c in range(0,n):
             a = b
