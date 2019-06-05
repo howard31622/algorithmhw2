@@ -1,11 +1,8 @@
-# algorithmhw2
 
-This project is for algorithm homework2
+This project is for discussing fibonacci algorithm 
 
 Fibonacii calculation
 
-homework introduction
-![image](https://github.com/howard31622/algorithmhw2/blob/master/algorithmproblem.jpg)
 
 一. Divide anda Coonquer method :
   Recursive program Fib1 時間統計圖表及10秒中Fn最大的n值
